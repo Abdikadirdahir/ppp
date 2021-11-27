@@ -1,5 +1,8 @@
 body{
-    background-color: gray;
+    background-color: #606060;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 .header{
 margin-top: 5px;
@@ -40,13 +43,7 @@ h1{
    
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: fit-content;
-  }
+
   
 
 aside{
@@ -57,7 +54,8 @@ aside{
   margin-left: 15px;
   float: right;
   font-style: italic;
-  background-color: lightgray;
+  background-color: black;
+  color:#A8A8A8;
 }
 
 
@@ -66,4 +64,31 @@ aside{
     
 color: antiquewhite;
     background-color: black;
+}
+
+#pic{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height:auto;
+
+}
+
+#picture{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:auto;
+    background-color: black;
+}
+
+.second{
+  background-color: #606060;
+  color: white ;
+}
+
+.first{
+  color: white;
 }
